@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Montserrat', sans-serif;
+  --font-serif: 'Merriweather', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-deep: #044550;
+  --color-surface: #086E77;
+  --color-primary-teal: #199396;
+  --color-soft-teal: #4FB3AE;
+  --color-pale-mint: #9FD3CD;
+  --color-accent: #FF6B6B;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #044550;
+  color: #E6F4F1;
+}
+
+h1, h2, h3, h4, h5, h6, button, nav, .font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-editorial {
+  font-family: 'Merriweather', serif;
+}
+
+/* Subtle lab grid background */
+.lab-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(159, 211, 205, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(159, 211, 205, 0.04) 1px, transparent 1px);
+}
+
+.lab-glow {
+  background: radial-gradient(circle at 50% 30%, rgba(25, 147, 150, 0.18), transparent 70%);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #044550;
+}
+::-webkit-scrollbar-thumb {
+  background: #086E77;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #199396;
+}

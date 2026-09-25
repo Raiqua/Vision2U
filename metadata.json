@@ -1,0 +1,6 @@
+{
+  "name": "Vision2U",
+  "description": "AI-powered brand intelligence platform. Investigate your idea, build Brand DNA, challenge generic thinking, and launch with confidence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
